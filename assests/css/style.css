@@ -5,6 +5,7 @@
 }
 
 body {
+	background-image: url("../images/spiration-light.png");
 }
 
 header {
@@ -16,10 +17,11 @@ h1 {
 	background-color: #4aaaa5;
 	padding: 25px 25px 0px 25px;
 	float: left;
-	font-size: 19px;
+	font-size: 21px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-bottom: 0px;
 	margin-left: 350px;
+	color: white;
 }
 
 
@@ -50,14 +52,21 @@ h2 {
 	margin-right: 50px;
 	margin-left: 25px;
 	padding-bottom: 25px;
+	color: #4aaaa5;
+}
+
+h3 {
+	border-bottom: solid;
+	border-color: #cccccc;
+	color: #4aaaa5;
+	padding-bottom: 10px;
 }
 
 .mainphoto {
 	float: left;
 	margin-right: 25px;
 	margin-left: 25px;
-	border-radius: 25px;
-}
+	border-radius: 25px;}
 
 #top {
 	background-color: #ffffff;
@@ -68,7 +77,6 @@ h2 {
 #middle {
 	width: 960px;
 	margin: 0 auto;
-	background-image: url("assets/images/spiration-light.png");
 }
 
 #main-info {
@@ -76,7 +84,8 @@ h2 {
 	float: left;
 	border: solid;
 	border-color: #cccccc;
-	margin: 50px 25px 50px 0px;
+	margin: 25px 25px 50px 0px;
+	background-color: white;
 }
 
 #connect-info {
@@ -85,6 +94,9 @@ h2 {
 	border-color: #cccccc;
 	text-align: center;
 	padding: 10px;
+	background-color: white;
+	float: left;
+	margin: 25px;
 }
 
 #photo-text {
@@ -100,4 +112,19 @@ footer {
 	border-top: solid;
 	border-color: #4aaaa5;
 	border-width: 10px;
+	text-align: center;
+}
+
+.link1 {
+	width: 25%;
+	margin-right: 5px;
+}
+
+.link2 {
+	width: 25%;
+}
+
+.link3 {
+	width: 25%;
+	margin-left: 5px;
 }
